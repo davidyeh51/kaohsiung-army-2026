@@ -46,7 +46,7 @@ h1 strong { color: #e0a9ff; font-size: 1.27em; letter-spacing: -.035em; }
 .nav a:hover, .nav a:focus-visible { background: #42265c; }
 section, main { scroll-margin-top: 4rem; }
 main { padding-block: 1.4rem 2rem; }
-.key { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .7rem 1.6rem; padding: 1rem 1.25rem; background: #efe2fb; border: 1px solid #dcc6f3; border-radius: 1.1rem; }
+.key { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .7rem 1.6rem; padding: 1rem 1.25rem; background: #efe2fb; border: 1px solid #dcc6f3; border-radius: 1.1rem; }
 .key div { display: grid; gap: .12rem; }
 .key strong { color: #482168; font-size: 1.06rem; }
 .key span { color: #46365a; font-size: .91rem; }
@@ -83,6 +83,6 @@ h2 { font-size: clamp(1.55rem, 3.6vw, 2.25rem); line-height: 1.25; letter-spacin
   .when br { display: none; }
   .when span { margin-inline-start: .27rem; }
 }
-@media (max-width: 29rem) {
+@media (max-width: 36rem) {
   .key { grid-template-columns: 1fr; }
 }
